@@ -1,5 +1,9 @@
 body {
-	background-color: #B2E9FD;
+	background-color: black;
+	background-image: url('./Images/popcornBG.jpeg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: bottom;
 }
 
 .header h2 {
@@ -7,10 +11,38 @@ body {
 }
 
 .header p {
-	color: #50524F;
+	color: red;
 }
 
 .results {
-	margin-top: 20px;
+	margin-top: 20px;	
 }
 
+.row {
+	display: flex;
+}
+
+.column {
+	width: 100%;
+	flex: 50%;
+	padding: 5px;
+}
+
+.movies-container {
+	flex: 50%;
+}
+
+.card-body {
+	background-color: rgb(39, 101, 109);
+}
+.card-footer {
+	background-color: rgb(39, 101, 109);
+}
+.release_date_button {
+	background-color: silver;	
+}
+
+.add_button {
+	background-color: rgb(12, 12, 107);
+	color:azure;
+}
